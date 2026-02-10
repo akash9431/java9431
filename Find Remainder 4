@@ -1,0 +1,31 @@
+anguage: Java 8
+
+ Open in editor
+1
+import java.io.*;
+2
+import java.util.*;
+3
+​
+4
+public class Solution {
+5
+​
+6
+    public static void main(String[] args) {
+7
+        int a;
+8
+        int b;
+9
+        Scanner s = new Scanner(System.in);
+10
+        a=s.nextInt();
+11
+        b=s.nextInt();
+12
+        System.out.println(a%b);
+13
+    }
+14
+}
