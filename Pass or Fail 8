@@ -1,0 +1,41 @@
+anguage: Java 8
+
+ Open in editor
+1
+import java.io.*;
+2
+import java.util.*;
+3
+​
+4
+public class Solution {
+5
+​
+6
+    public static void main(String[] args) {
+7
+        Scanner s=new Scanner(System.in);
+8
+        int a;
+9
+        a=s.nextInt();
+10
+        if(a>=40){
+11
+            System.out.println("Pass");
+12
+        }
+13
+        else{
+14
+            System.out.println("Fail");
+15
+        }
+16
+        }
+17
+}
+18
+​
+19
+​
