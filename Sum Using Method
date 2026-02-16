@@ -1,0 +1,17 @@
+import java.util.*;
+public class Examples{
+    public int add(int a,int b)
+    {
+       int c=a+b;
+        return c;
+    }
+    public static void main(String[]args)
+    {
+        Examples ob=new Examples();
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int r=ob.add(a,b);
+        System.out.println(r);
+    }
+}
