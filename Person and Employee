@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Person {
+    String name;
+
+    void Name() {
+        System.out.println("Name:" + name);
+    }
+}
+
+class Employee extends Person {
+    double salary;
+
+    void Salary() {
+        System.out.println("Salary:" + salary);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Employee d = new Employee();
+
+        d.name = sc.nextLine();     
+        d.salary = sc.nextDouble();  
+
+        d.Name();
+        d.Salary();
+    }
+}
