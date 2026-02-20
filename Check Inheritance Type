@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+class Parent{
+    void show(){
+        System.out.println("Parent");
+    }
+}
+class Child extends Parent{
+    void solution(){
+        System.out.println("Child");
+    }
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Child d=new Child();
+        d.show();
+        d.solution();
+        
+    }
+}
